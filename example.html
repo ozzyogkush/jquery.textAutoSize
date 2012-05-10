@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>FillText Example</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<link rel="stylesheet" type="text/css" href="css/ricca_slider.css" />
+		<script type="text/javascript" src="jquery-1.7.2.min.js"></script> <!-- REQUIRED FILE -->
+		<script type="text/javascript" src="jquery.textAutoSize.src.js"></script> <!-- REQUIRED FILE -->
+
+		<style type='text/css'>
+			div.ft {
+				width:450px;
+				height:500px;
+				border:1px solid black;
+				padding:5px;
+				overflow:hidden;
+			}
+		</style>
+	</head>
+	
+	<body>
+		Basic example of the FillText class. View the source code.<br /><br />
+		
+		<div class='ft' id='ft1'>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at justo libero, sed interdum nibh. Cras varius metus in velit euismod pulvinar. Mauris metus ante, fermentum at congue vitae, laoreet ac nibh. Aenean ut imperdiet ante. Praesent posuere arcu ut nunc aliquam consectetur. Fusce ullamcorper volutpat suscipit. Sed eu lectus at dolor viverra iaculis ut quis felis. Curabitur neque eros, auctor in facilisis tempus, cursus ut nisi. Etiam sit amet rutrum nibh. Morbi et nulla odio, quis pulvinar est. Phasellus et enim quis dolor mattis sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae velit ante. Aliquam vitae elit orci, lobortis hendrerit enim. 
+		</div><br />
+		
+		<div class='ft'>
+			Lorem ipsum dolor sit amet.
+		</div>
+		<script type='text/javascript'>
+			$(document).ready(function() {
+				$('div.ft').textAutoSize({max_font_size : 60});
+			});
+		</script>
+	</body>
+</html>
